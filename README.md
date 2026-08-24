@@ -24,7 +24,7 @@
 
 # \- Connect seven campuses using seven routers
 
-# \- Provide both wired and wireless network access
+# \- Provide wired and wireless network access
 
 # \- Establish connectivity between all campus networks
 
@@ -34,9 +34,9 @@
 
 # \- Configure a university web server
 
-# \- Provide scalable IP addressing for future expansion
+# \- Provide scalable IP addressing
 
-# \- Implement both dynamic and static routing
+# \- Implement OSPF and static routing
 
 # 
 
@@ -48,11 +48,7 @@
 
 # 
 
-# Each campus contains its own LAN with wired and wireless hosts.
-
-# 
-
-# The router-to-router connectivity follows the topology specified in the CSE405 project requirements.
+# Each campus contains its own LAN with wired and wireless hosts. The router-to-router connectivity follows the topology specified in the CSE405 project requirements.
 
 # 
 
@@ -88,7 +84,7 @@
 
 # 
 
-# A centralized DHCP server is configured to automatically assign IP addresses to hosts across the different campus networks.
+# A centralized DHCP server automatically assigns IP addresses to hosts across the different campus networks.
 
 # 
 
@@ -96,11 +92,11 @@
 
 # 
 
-# A centralized DNS server is configured to resolve the university website:
+# A centralized DNS server resolves the university website:
 
 # 
 
-# \*\*abc.scholarsbd.edu\*\*
+# `abc.scholarsbd.edu`
 
 # 
 
@@ -108,7 +104,7 @@
 
 # 
 
-# A university web server hosts the University of Scholars website.
+# The university web server hosts the University of Scholars website.
 
 # 
 
@@ -116,7 +112,7 @@
 
 # 
 
-# \*\*http://abc.scholarsbd.edu\*\*
+# `http://abc.scholarsbd.edu`
 
 # 
 
@@ -124,11 +120,11 @@
 
 # 
 
-# Each campus contains wireless connectivity in addition to wired hosts.
+# Each campus provides wireless connectivity in addition to wired network access.
 
 # 
 
-# Wireless devices connect through wireless access points and communicate with the corresponding campus LAN.
+# Wireless devices connect through wireless access points and communicate with their respective campus LAN.
 
 # 
 
@@ -140,7 +136,7 @@
 
 # 
 
-# Separate networks and subnets are assigned to the seven campuses, with address space reserved where possible to support future expansion.
+# Separate networks and subnets are assigned to the seven campuses, with address space reserved for future expansion.
 
 # 
 
@@ -202,7 +198,7 @@
 
 # 
 
-# \## Project Files
+# \## Project File
 
 # 
 
@@ -211,12 +207,6 @@
 # |---|---|
 
 # | `2023-2-60-098\_CSE405.pkt` | Cisco Packet Tracer network project |
-
-# | `README.md` | Project documentation |
-
-# 
-
-# The technical report can be included separately as a PDF.
 
 # 
 
