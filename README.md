@@ -1,50 +1,46 @@
-# CSE405 - UNIVERSITY OF SCHOLARS MULTI-CAMPUS NETWORK
+# \# CSE405 — University of Scholars Multi-Campus Network
 
 # 
 
-# PROJECT OVERVIEW
+# \## Project Overview
 
 # 
 
-# This project presents a complete multi-campus enterprise network designed for University of Scholars as part of the CSE405 - Computer Networks course.
+# This project presents a complete multi-campus enterprise network designed for \*\*University of Scholars\*\* as part of the \*\*CSE405 — Computer Networks\*\* course.
 
 # 
 
-# The network is designed and simulated using Cisco Packet Tracer and represents a university network consisting of seven campuses, multiple LANs, wired and wireless hosts, centralized network services, and inter-campus routing.
+# The network is designed and simulated using \*\*Cisco Packet Tracer\*\* and represents a university network consisting of seven campuses, multiple LANs, wired and wireless hosts, centralized network services, and inter-campus routing.
 
 # 
 
-# 
-
-# PROJECT OBJECTIVES
+# \## Project Objectives
 
 # 
 
-# \- Design a complete multi-campus enterprise network.
+# \- Design a complete multi-campus enterprise network
 
-# \- Create seven separate campus LANs.
+# \- Create seven separate campus LANs
 
-# \- Connect all seven campuses using seven routers.
+# \- Connect seven campuses using seven routers
 
-# \- Provide both wired and wireless network access.
+# \- Provide both wired and wireless network access
 
-# \- Establish connectivity between all campus networks.
+# \- Establish connectivity between all campus networks
 
-# \- Implement centralized DHCP services.
+# \- Implement centralized DHCP services
 
-# \- Implement centralized DNS services.
+# \- Implement centralized DNS services
 
-# \- Configure a university web server.
+# \- Configure a university web server
 
-# \- Provide scalable IP addressing for future expansion.
+# \- Provide scalable IP addressing for future expansion
 
-# \- Implement both dynamic and static routing.
-
-# 
+# \- Implement both dynamic and static routing
 
 # 
 
-# NETWORK ARCHITECTURE
+# \## Network Architecture
 
 # 
 
@@ -60,45 +56,35 @@
 
 # 
 
-# 
-
-# ROUTING PROTOCOLS
+# \## Routing Protocols
 
 # 
 
-# OSPF is configured on:
+# | Router | Routing Method |
+
+# |---|---|
+
+# | Router 1 | Static Routing |
+
+# | Router 2 | OSPF |
+
+# | Router 3 | OSPF |
+
+# | Router 4 | OSPF |
+
+# | Router 5 | OSPF |
+
+# | Router 6 | Static Routing |
+
+# | Router 7 | OSPF |
 
 # 
 
-# \- Router 2
-
-# \- Router 3
-
-# \- Router 4
-
-# \- Router 5
-
-# \- Router 7
+# \## Network Services
 
 # 
 
-# Static routing is configured on:
-
-# 
-
-# \- Router 1
-
-# \- Router 6
-
-# 
-
-# 
-
-# NETWORK SERVICES
-
-# 
-
-# DHCP SERVER
+# \### DHCP Server
 
 # 
 
@@ -106,19 +92,19 @@
 
 # 
 
-# DNS SERVER
+# \### DNS Server
 
 # 
 
-# A centralized DNS server is configured to resolve the university website domain:
+# A centralized DNS server is configured to resolve the university website:
 
 # 
 
-# abc.scholarsbd.edu
+# \*\*abc.scholarsbd.edu\*\*
 
 # 
 
-# WEB SERVER
+# \### Web Server
 
 # 
 
@@ -126,17 +112,15 @@
 
 # 
 
-# The website can be accessed using:
+# Website:
 
 # 
 
-# http://abc.scholarsbd.edu
+# \*\*http://abc.scholarsbd.edu\*\*
 
 # 
 
-# 
-
-# WIRELESS NETWORKING
+# \## Wireless Networking
 
 # 
 
@@ -148,9 +132,7 @@
 
 # 
 
-# 
-
-# IP ADDRESSING
+# \## IP Addressing
 
 # 
 
@@ -158,17 +140,11 @@
 
 # 
 
-# Separate networks and subnets are assigned to the seven campuses.
+# Separate networks and subnets are assigned to the seven campuses, with address space reserved where possible to support future expansion.
 
 # 
 
-# Address space is reserved where possible to support future network expansion.
-
-# 
-
-# 
-
-# CONNECTIVITY TESTING
+# \## Connectivity Testing
 
 # 
 
@@ -198,9 +174,7 @@
 
 # 
 
-# 
-
-# DESIGN CONSIDERATIONS
+# \## Design Considerations
 
 # 
 
@@ -228,27 +202,25 @@
 
 # 
 
-# 
-
-# PROJECT FILES
+# \## Project Files
 
 # 
 
-# The main Packet Tracer project file is:
+# | File | Description |
+
+# |---|---|
+
+# | `2023-2-60-098\_CSE405.pkt` | Cisco Packet Tracer network project |
+
+# | `README.md` | Project documentation |
 
 # 
 
-# 2023-2-60-098\_CSE405.pkt
+# The technical report can be included separately as a PDF.
 
 # 
 
-# A technical report containing the detailed network design, IP addressing scheme, topology, configurations, design considerations, limitations, and testing results can be included separately.
-
-# 
-
-# 
-
-# TOOLS USED
+# \## Tools Used
 
 # 
 
@@ -270,37 +242,23 @@
 
 # 
 
-# 
-
-# COURSE INFORMATION
+# \## Course Information
 
 # 
 
-# Course: CSE405 - Computer Networks
+# \*\*Course:\*\* CSE405 — Computer Networks  
 
-# Project: Full-Fledged Multi-Campus Network Design
+# \*\*Project:\*\* Full-Fledged Multi-Campus Network Design  
 
-# Institution: University of Scholars
-
-# 
-
-# Student ID: 2023-2-60-098
+# \*\*Institution:\*\* University of Scholars
 
 # 
 
-# 
-
-# AUTHOR
+# \## Author
 
 # 
 
-# AUTHOR
+# \*\*Kazi Mazharul Islam Mridul\*\*  
 
-# 
-
-# Name      : Kazi Mazharul Islam Mridul
-
-# Student ID: 2023-2-60-098
-
-
+# \*\*Student ID:\*\* 2023-2-60-098
 
