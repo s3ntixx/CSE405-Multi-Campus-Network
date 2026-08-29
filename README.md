@@ -1,4 +1,4 @@
-﻿# CSE405 - University of Scholars Multi-Campus Network
+﻿# CSE405 -  Multi-Campus Network
 
 ## Project Overview
 
