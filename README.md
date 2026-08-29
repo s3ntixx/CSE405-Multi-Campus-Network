@@ -100,7 +100,7 @@ The network design considers:
 
 ## Project File
 
-`2023-2-60-098_CSE405.pkt`
+`Project_CSE_405.pkt`
 
 Cisco Packet Tracer network project.
 
