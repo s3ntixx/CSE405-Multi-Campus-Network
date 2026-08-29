@@ -121,7 +121,7 @@ Cisco Packet Tracer network project.
 
 **Project:** Full-Fledged Multi-Campus Network Design
 
-**Institution:** University of Scholars
+**Institution:**East West University
 
 ## Author
 
